@@ -6,7 +6,7 @@ local function CCIPCA(V, time, input, pp, num_comp)
   end
 
   if pp == nil then
-    pp = torch.Tensor({20, 200, 3, 2000})
+    pp = {20, 200, 3, 2000}
   end
 
   local __, lr = amnesic(time, pp[1], pp[2], pp[3], pp[4])

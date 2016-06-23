@@ -39,3 +39,8 @@ luac.out
 *.x86_64
 *.hex
 
+# Data
+robotdata.h5
+!robotdata.h5.zip
+# Saved features
+feature_saved.t7
