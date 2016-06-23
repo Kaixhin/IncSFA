@@ -160,4 +160,4 @@ for episode = 1, NUM_EPISODES do
   end
 end
 
--- TODO: view_result
+dofile('view_result.lua')
